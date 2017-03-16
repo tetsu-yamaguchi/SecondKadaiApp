@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         let sVC = segue.destination as! ResultViewController
         sVC.personname = Nyuuryoku.text!
     }
-    
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+    }
 }
 
